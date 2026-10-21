@@ -11,80 +11,118 @@
             max-width: 900px;
             margin: auto;
             line-height: 1.6;
-            color: #333;
-            background-color: #f9f9f9;
+            color: #222;
+            background-color: #f4f4f9;
             padding: 20px;
         }
+
         header {
-            background-color: #2c3e50;
-            color: white;
-            padding: 1rem;
+            background-color: #1b1b1b;
+            color: #f0efea;
+            padding: 1.5rem;
             text-align: center;
             border-radius: 8px;
         }
+
+        nav {
+            margin-top: 1rem;
+        }
+
         nav a {
-            margin-right: 1rem;
-            color: #ecf0f1;
+            margin-right: 0.8rem;
+            color: #ffffff;
             text-decoration: none;
             font-weight: bold;
         }
+
         nav a:hover {
+            color: #d70ff1;
             text-decoration: underline;
         }
+
         section {
-            background: white;
+            background: #ffffff;
             margin-block: 1.5rem;
             padding: 1.5rem;
             border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
-        h2 {
-            color: #2c3e50;
+
+        h2,
+        h3 {
+            color: #e60505;
             border-bottom: 2px solid #ecf0f1;
-            padding-bottom: 0.5rem;
+            padding-bottom: 0.3rem;
         }
+
         table {
             width: 100%;
             border-collapse: collapse;
             margin-top: 1rem;
         }
-        th, td {
+
+        th,
+        td {
             border: 1px solid #ddd;
-            padding: 8px;
+            padding: 10px;
             text-align: left;
         }
+
         th {
-            background-color: #f2f2f2;
+            background-color: #2c3e50;
+            color: #ffffff;
         }
+
         img {
             max-width: 100%;
             height: auto;
-            border-radius: 4px;
+            border-radius: 6px;
         }
+
+        figure {
+            margin: 1.5rem 0;
+            text-align: center;
+        }
+
+        figcaption {
+            font-style: italic;
+            color: #555;
+            margin-top: 0.5rem;
+        }
+
         form {
             display: flex;
             flex-direction: column;
-            gap: 10px;
+            gap: 12px;
         }
-        input, textarea, select {
-            padding: 8px;
+
+        input,
+        textarea,
+        select {
+            padding: 10px;
             border: 1px solid #ccc;
             border-radius: 4px;
+            font-size: 1rem;
         }
+
         button {
-            background-color: #2c3e50;
+            background-color: #8e44ad;
             color: white;
-            padding: 10px;
+            padding: 12px;
             border: none;
             border-radius: 4px;
+            font-weight: bold;
             cursor: pointer;
         }
+
         button:hover {
-            background-color: #34495e;
+            background-color: #7d3c98;
         }
+
         footer {
             text-align: center;
             margin-top: 2rem;
+            padding: 1rem;
             color: #7f8c8d;
         }
     </style>
@@ -105,46 +143,78 @@
             <h3>Sobre mí: </h3>
             <p>Estudiante de Ingeniería de Software.</p>
         </section>
+        <section id="bitacora">
+            <h2>Bitacora de Experiencia Personal</h2>
+            <h3>Tematica: Concierto de Tren Loco</h3>
+        </section>
+        <section id="contexto">
+            <h3>Contexto: Banda Tren Loco</h3>
+            <p>
+                Tren Loco es una banda argentina de heavy metal formada en la ciudad suburbana de Grand Bourg, en la
+                provincia de Buenos Aires. Esta banda en el mes de agosto-septiembre comunicó que llevaria a cabo una
+                gira, y entre ellas estaba la ciudad de guayaquil.
+                Entonces decidimos guardar dinero para poder comprar las entradas y asistir al concierto, puesto que,
+                nos llama mucho la atencion.
+            </p>
+        </section>
+        <section id="desarrollo">
+            <h3>Desarrollo: En el Concierto</h3>
+            <p>
+                En este concierto pude disfrutar junto a mi padre el primer evento de estos al que pude asistir,
+                recuerdo que salimos de casa a las 16:45 y llegamos temprano, compramos las entradas y pues, como era
+                temprano tuvimos que hacer tiempo. Nos fuimos a comer un poco, pasear por el malecon, hasta que fue la
+                hora que empezara el concierto.
+                Ingresamos al establecimiento, empezaron las bandas teloneras, empezo suave con Ransomless, una banda
+                muy poco conocida, luego vino Lancelot,
+                una banda un poco mas sonada, mas o menos un power metal, luego vino la banda Primate, la cual era un
+                poco mas pesada con guturales y screams.
+                Al final, la banda principal Tren Loco, comenzó a tocar, en ese momento todo fue mas encendido.
+                Se formaban cada momento los moshpits, cantaban, gritaban, los parlantes retumbaban, todo fue demasiado
+                emocionante e intenso.
+            </p>
+        </section>
+        <section id="aprendizaje">
+            <h3>Aprendizaje: Final del Concierto</h3>
+            <p>
+                Lo principal bueno que aprendi es a disfrutar cada momento de la musica de nuestros artistas favoritos,
+                que no empieza siempre la banda principal, y que si puedes
+                disfrutar alguna actividad de tu agrado con amigos, familia, o personas que tambien la disfrutan, hazlo
+                es mucho mejor y mas divertido.
+            </p>
+        </section>
+
+        <section>
+            <a href="https://www.instagram.com/trenloco_oficial/?hl=es" target="_blank">IG: Tren Loco</a>
+            <br>
+            <a href="https://youtube.com/channel/UCU5ms4Icq5FkRyITHRImbcA?si=EsThZ0HynkG8RUMU" target="_blank">YouTube:
+                Tren Loco</a>
+        </section>
+        <section id="elementos">
+            <h2>Elementos del Evento y Secuencia</h2>
+            <h3>Insumos y objetos necesarios para el evento:</h3>
+            <ul>
+                <li>Boleto impreso de ingreso al concierto</li>
+                <li>Camiseta oficial de la banda Tren Loco</li>
+                <li>Dinero en efectivo para las bebidas y la merch de las bandas</li>
+            </ul>
+
+            <h3>Secuencia de la jornada:</h3>
+            <ol>
+                <li>Llegada a la ubicacion del evento y fila de acceso en el sector.</li>
+                <li>Ingreso, compra de bebidas y ubicación en la zona de cancha.</li>
+                <li>Disfrute del espectáculo en vivo y retiro del local al finalizar.</li>
+            </ol>
+
+            <blockquote>
+                <p>El heavy metal no es solo música, es una forma de vida, una energía pura que se comparte entre el escenario y el público.</p>
+                    <footer>- <cite>Bruce Dickinson</cite></footer>
+            </blockquote>
+        </section>
+        
     </main>
 
-    <section id="bitacora">
-        <h2>Bitacora de Experiencia Personal</h2>
-        <h3>Tematica: Concierto de Tren Loco</h3>
-    </section>
-    <section id="contexto">
-        <h3>Contexto: Banda Tren Loco</h3>
-        <p>
-            Tren Loco es una banda argentina de heavy metal formada en la ciudad suburbana de Grand Bourg, en la
-            provincia de Buenos Aires. Esta banda en el mes de agosto-septiembre comunicó que llevaria a cabo una gira, y entre ellas estaba la ciudad de guayaquil.
-            Entonces decidimos guardar dinero para poder comprar las entradas y asistir al concierto, puesto que, nos llama mucho la atencion.
-        </p>
-    </section>
-    <section id="desarrollo">
-        <h3>Desarrollo: En el Concierto</h3>
-        <p>
-            En este concierto pude disfrutar junto a mi padre el primer evento de estos al que pude asistir,
-            recuerdo que salimos de casa a las 16:45 y llegamos temprano, compramos las entradas y pues, como era
-            temprano tuvimos que hacer tiempo JAJAJAJA. Nos fuimos a comer un poco, pasear por el malecon, hasta que fue la hora que empezara el concierto.
-            Ingresamos al establecimiento, empezaron las bandas teloneras, empezo suave con Ransomless, una banda muy poco conocida, luego vino Lancelot,
-            una banda un poco mas sonada, mas o menos un power metal, luego vino la banda Primate, la cual era un poco mas pesada con guturales y screams.
-            Al final, la banda principal Tren Loco, comenzó a tocar, en ese momento todo fue mas encendido.
-            Se formaban cada momento los moshpits, cantaban, gritaban, los parlantes retumbaban, todo fue demasiado emocionante e intenso.
-        </p>
-    </section>
-    <section id="aprendizaje">
-        <h3>Aprendizaje: Final del Concierto</h3>
-        <p>
-            Lo principal bueno que aprendi es a disfrutar cada momento de la musica de nuestros artistas favoritos, que no empieza siempre la banda principal, y que si puedes 
-            disfrutar alguna actividad de tu agrado con amigos, familia, o personas que tambien la disfrutan, hazlo es mucho mejor y mas divertido.
-        </p>
-    </section>
 
-    <section>
-        <a href="https://www.instagram.com/trenloco_oficial/?hl=es" target="_blank">IG: Tren Loco</a>
-        <br>
-        <a href="https://youtube.com/channel/UCU5ms4Icq5FkRyITHRImbcA?si=EsThZ0HynkG8RUMU" target="_blank">YouTube: Tren Loco</a>
-    </section>
-    
+
     <footer>
         <p>Autoría: Becker Del Salto
             21/10/2026
